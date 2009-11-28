@@ -1,7 +1,7 @@
 " C editing 
 syntax on
 set cindent
-set tabstop=3
+set tabstop=8
 set number
 " Jumping through errors after make
 map <F8> :cnext <Return>
