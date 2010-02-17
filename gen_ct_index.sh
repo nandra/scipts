@@ -23,16 +23,19 @@ else
     echo "Generating cscope database"
     if [ "$KERNEL" = "-k" ];then
         make cscope
+	echo "Generating ctags database"
+	make tags
     elif [ "$KERNEL" = "-n" ];then
 	find $DIR -name '*.[ch]' > $DIR/cscope.files
 	cscope -b -q
+	echo "Generating ctags database"
+	ctags -R
     else
 	echo "Please append correct option:"
 	echo "-k for kernel"
 	echo "-n for normal C project"
 	exit 0;
     fi
-    echo "Generating ctags database"
-    ctags -R
+#ctags -R
     cd $C_DIR
 fi
