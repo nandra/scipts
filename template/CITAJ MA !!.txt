@@ -1,0 +1,33 @@
+Flash Header Info : 
+
+1, Kazda stranka posiela do flashu premenne FlashVars. Tieto premmenne urcuju pre flash na akej stranke
+sa akurat nachadza hlavicka. FlashVars je definovane dva krat v objecte ktorym sa flash vklada. Obidve tagy
+oznacil komentom cize ich nebude problem najst. Podstate je menit hodnotu premennej. 
+		Hodnoty su nasledovne :
+				A, Pre stranky Titus Zeman je hodnota page 1. (page=1)
+				B, Pre stranky Aktuality je hodnota page 2.
+				C, Pre stranky O procese je hodnota page 3.
+				D, Pre stranky Svedectva je hodnota page 4.
+				E, Pre stranky Galerie je hodnota page 5.
+				F, Pre stranky Napisali je hodnota page 6.
+				G, Pre stranky Kontakt je hodnota page 7.
+
+Poprosil by som menit tuto hodnotu kvoli spravnej funkcnosti Flashu.
+
+2, Druha vec su linky na ktore odkazuju jednotlive polozky menu.Tieto linky su nadefinovane v ActionScripte cize 
+ich mozem iba ja v tom ActionScripte aj zmenit. 
+		Hodnoty su nasledovne :
+				A, Pre stranky Titus Zeman je link tituszeman.html
+				B, Pre stranky Aktuality je link aktuality.html
+				C, Pre stranky O procese je link oprocese.html
+				D, Pre stranky Svedectva je link svedectva.html.
+				E, Pre stranky Galerie je link galeria.html.
+				F, Pre stranky Napisali je link napisali.html.
+				G, Pre stranky Kontakt je link kontakt.html.	
+
+3, V hlavicke je vlozene div-ko ktore sa vola header-png. Obsah tohto divka je funkcny len ak uzivatel nema
+flash prehravac a teda si nemoze pozret klasicku verziu stranky 
+
+Ak by trebalo tieto linky zmenit staci mi dat vediet na tomas@kinx.sk
+
+	
