@@ -22,9 +22,12 @@ else
     cd $DIR
     echo "Generating cscope database"
     if [ "$KERNEL" = "-k" ];then
-        make cscope
+        #make cscope
+	find $DIR -name '*.[ch]' > $DIR/cscope.files
+	cscope -b -q
 	echo "Generating ctags database"
-	make tags
+	#make tags
+	ctags -R
     elif [ "$KERNEL" = "-n" ];then
 	find $DIR -name '*.[ch]' > $DIR/cscope.files
 	cscope -b -q

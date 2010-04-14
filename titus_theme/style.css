@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+	background-image:url(assets/images/bg.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	margin: 0; 
+	padding: 0;
+}
+
+h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#d51839;
+	padding-left:20px;
+}
+
+h3 {
+       font-family: Tahome, Geneva, sans- serif;
+       margin-top: 0;
+}
+
+
+#wrapper {
+	font-family:Tahoma, Geneva, sans-serif;
+	width:1037px;
+	position:relative;
+	top:0px;
+	margin:0px auto;
+	border:none;
+}
+
+#header {
+	float:left;
+	height:380px;
+	width:1037px;
+	padding-left:0px;
+	padding-top:0px;
+	margin:0;
+	color:#ffffff;
+}
+
+#header-png {
+	background-image:url(assets/images/header.png);
+	height:380px;
+	width:1037px;
+	padding:0px;
+	margin:0;
+	position:absolute;
+	top:0px;
+}
+
+#menu {
+	color:#FFF;
+	position:absolute;
+	top:10px;
+	padding-left:200px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+}
+
+.menu-item {
+	padding-left:10px;
+	padding-right:15px;
+	border-right: 1px solid #FFF;
+}
+
+.menu-item-end {
+	padding-left:10px;
+}
+
+a.menu-item-end {
+	text-decoration:none;
+	color:#FFF;
+	
+}
+
+a.menu-item-end:hover {
+	color:#f2161a;
+}
+
+a.menu-item {
+	text-decoration:none;
+	color:#FFF;
+	
+}
+
+a.menu-item:hover {
+	color:#f2161a;
+}
+	
+
+#content {
+	float:left;
+	width:600px;
+	padding-left:130px;
+	margin:0px;
+	color:#000;
+}
+
+#text {
+	float:left;
+	width:550px;
+	padding-top:0px;
+	padding-left:30px;
+	margin:0;
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:200;
+}
+
+.first:first-letter {
+	padding-top:0px;
+	padding-left:10px;
+	
+}
+
+#panel {
+	float:left;
+	width:140px;
+	padding-left:20px;
+	padding-top:50px;
+	margin:0;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+#panel input#s {
+	width: 80%;
+	background: #eee;
+	border: 1px solid #999;
+	color: #000;
+}
+
+#panel ul {
+	color: #ccc;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3px;
+	text-transform: lowercase;
+}
+
+#panel ul li {
+/*	font: italic normal 110% 'Times New Roman', Times, serif;*/
+	letter-spacing: 0.1em;
+	margin-top: 10px;
+	padding-bottom: 2px; /*border-bottom: dotted 1px #ccc;*/
+}
+
+#panel ul ul {
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#panel ul ul li {
+	border: 0;
+/*	font: normal normal 12px/115% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;*/
+	letter-spacing: 0;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 12px;
+}
+
+#panel ul ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+#panel ul ul li a:hover {
+	border-bottom: 1px solid #809080;
+}
+
+#panel ul ul ul.children {
+	font-size: 142%;
+	padding-left: 4px;
+}
+
+
+
+
+.item {
+	padding-bottom:20px;
+}
+
+#footer-bg {
+	float:left;
+	position:relative;
+	top:10px;
+	background-image:url(assets/images/footer.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	width:100%;
+	height:55px;
+}
+
+#footer-holder {
+	font-family:Tahoma, Geneva, sans-serif;
+	width:1037px;
+	position:relative;
+	top:0px;
+	margin:0px auto;
+	border:none;
+}
+
+#footer {
+	padding-left:130px;
+	margin:0px;
+	padding-top:30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:200;
+	color:#FFF;
+}
+
+a.footer {
+	text-decoration:none;
+	color:#FFF;
+	padding-left:15px;
+}
+
+a.footer:hover {
+	color:#ff0000;
+}
+
+a.footer:visited {
+	text-decoration:none;
+}
+
+#copyright {
+	float:right;
+	padding-right:155px;
+	color:#da8082;	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:200;
+	
+}
+
+a.kinx {
+	color:#FFF;
+	text-decoration:none;
+}
+
+a.kinx:hover {
+	color:#ff0000;
+}
+
+
+h1.storytitle a {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#d51839;
+	padding-left:5px;
+	text-decoration: none;
+}
+
+.storytitle a {
+        /*text-decoration: none;*/
+}
+
