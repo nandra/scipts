@@ -44,14 +44,19 @@
     <param name="expressinstall" value="assets/scripts/expressInstall.swf" />
     <div id="header-png">
     <div id="menu">
-    <a href="tituszeman.html" class="menu-item">Titus Zeman</a>
+    <ul>
+
+    <?php wp_list_pages('title_li=' )?>
+    </ul>
+
+<!--    <a href="tituszeman.html" class="menu-item">Titus Zeman</a>
     <a href="aktuality.html" class="menu-item">Aktuality</a>
     <a href="oprocese.html" class="menu-item">O procese</a>
     <a href="svedectva.html" class="menu-item">Svedectvá</a>
     <a href="galeria.html" class="menu-item">Galéria</a>
     <a href="napisali.html" class="menu-item">Napísali</a>
-    <a href="kontakt.html" class="menu-item-end">Kontakt</a>
-    </div>
+    <a href="kontakt.html" class="menu-item-end">Kontakt</a> -->
+    </div> 
     </div>
     <!--[if !IE]>-->
   </object>

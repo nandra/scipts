@@ -24,7 +24,7 @@ get_header();
 	</div>
 
 </div>
-</div> <!-- content -->
+
 <?php //comments_template(); // Get wp-comments.php template ?>
 
 <?php endwhile; else: ?>
@@ -32,5 +32,5 @@ get_header();
 <?php endif; ?>
 
 <?php posts_nav_link(' &#8212; ', __('&laquo; Newer Posts'), __('Older Posts &raquo;')); ?>
-
+</div>
 <?php get_footer(); ?>

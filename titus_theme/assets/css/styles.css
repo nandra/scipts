@@ -10,6 +10,17 @@ body {
 	padding: 0;
 }
 
+a.content {
+    text-decoration:none;
+    color:green;
+}
+
+a.content:hover {
+    color:#f2161a;
+}
+
+
+
 h1 {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:17px;

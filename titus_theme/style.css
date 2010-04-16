@@ -63,6 +63,27 @@ h3 {
 	font-size:13px;
 }
 
+
+#menu .page_item  {
+	list-style-type:none;
+	padding-left:10px;
+	padding-right:15px;
+	border-right: 1px solid #FFF;
+}
+
+#menu li.page_item{
+	float:left;
+}
+
+#menu li.page_item a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#menu li.page_item a:hover {
+	color:#f2161a;
+}
+
 .menu-item {
 	padding-left:10px;
 	padding-right:15px;
@@ -213,7 +234,7 @@ a.menu-item:hover {
 }
 
 #footer {
-	padding-left:130px;
+	padding-left:30px;
 	margin:0px;
 	padding-top:30px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -221,6 +242,38 @@ a.menu-item:hover {
 	font-weight:200;
 	color:#FFF;
 }
+
+#footer .page_item  {
+	//padding-left:120px;
+	margin:0px;
+	padding-top:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:200;
+	color:#FFF;
+	padding-left:10px;
+	padding-right:15px;
+	
+	list-style-type:none;
+	padding-right:15px;
+}
+
+
+#footer li.page_item{
+	float:left;
+}
+
+#footer li.page_item a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#footer li.page_item a:hover {
+	color:#f2161a;
+}
+
+
+
 
 a.footer {
 	text-decoration:none;
