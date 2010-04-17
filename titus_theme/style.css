@@ -206,7 +206,14 @@ a.menu-item:hover {
 	padding-left: 4px;
 }
 
+#panel a img{
+	text-decoration: none;
+	border:none;
+}
 
+#panel a:visited{
+	text-decoration: none;
+}
 
 
 .item {
